@@ -4,7 +4,7 @@ function CardDashboard(props) {
   const data = props.data
   const buttonClicked = props.buttonClicked
   return (
-    <div className="card w-60 shadow-xl bg-lime-green">
+    <div className={`card w-60 shadow-xl bg-${data.color}`}>
       <img className='w-8 h-8 ml-auto' src={img} alt=" image" />
       <div className="card-body text-white bg-dark-blue rounded-2xl">
         <div className="flex justify-between items-center">
