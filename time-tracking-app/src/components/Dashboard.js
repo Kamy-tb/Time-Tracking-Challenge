@@ -1,16 +1,20 @@
 import data from '../data.json'
 import CardDashboard from './CardDashboard';
+import CardProfile from './CardProfile';
 
 function Dashboard() {
     
     return (
-        <div className="container mx-auto p-4">
-            <div className="flex flex-wrap -mx-4">
+        <div className="flex justify-stretch">
+            <CardProfile className="w-56"/>
+            <div className="container">
+                <div className="flex flex-wrap justify-center align-center">
                 {data.map((card, index) => (
-                <div key={index} className="w-full sm:w-1/2 lg:w-1/3 px-4 mb-4">
+                <div key={index} className="w-56  ">
                     <CardDashboard title={card.title} content={card.timeframes} />
                 </div>
                 ))}
+                </div>
             </div>
         </div>
    );
