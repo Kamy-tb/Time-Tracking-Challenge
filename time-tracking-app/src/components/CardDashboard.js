@@ -7,8 +7,11 @@ import Card from 'react-bootstrap/Card';
 function CardDashboard({ title, timeframes }) {
 
   return (
-    <div className="card shadow-xl bg-lime-green ">
-      <img className='w-8 h-8 justify-end' src={img} alt=" image" />
+    <div className="card w-60 shadow-xl bg-lime-green">
+      <img className='w-8 h-8 ml-auto' src={img} alt=" image" />
+
+      
+      
       <div className="card-body text-white bg-dark-blue rounded-2xl">
         <div className="flex justify-between items-center">
           <p >{title}</p>

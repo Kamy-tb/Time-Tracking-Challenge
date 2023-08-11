@@ -5,13 +5,13 @@ import CardProfile from './CardProfile';
 function Dashboard() {
     
     return (
-        <div className="flex justify-stretch">
-            <CardProfile className="w-56"/>
-            <div className="container">
-                <div className="flex flex-wrap justify-center align-center">
+        <div className="flex justify-stretch justify-evenly align-middle">
+            <CardProfile />
+            <div className="container flex justify-evenly align-middle">
+                <div className="flex flex-wrap gap-7">
                 {data.map((card, index) => (
-                <div key={index} className="w-56  ">
-                    <CardDashboard title={card.title} content={card.timeframes} />
+                <div key={index} >
+                    <CardDashboard  title={card.title} content={card.timeframes} />
                 </div>
                 ))}
                 </div>
