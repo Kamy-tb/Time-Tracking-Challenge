@@ -5,9 +5,9 @@ import Dashboard from './components/Dashboard';
 function App() {
   //<Dashboard/>
   return (
-    <>
-      <Dashboard/>
-    </>
+    <div className='flex items-center justify-center h-screen w-screen bg-very-dark-blue'>
+      <Dashboard />
+    </div>
     
   );
 }

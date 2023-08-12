@@ -1,7 +1,8 @@
 [
   {
     "title": "Work",
-    "color" : "light-red",
+    "color" : "bg-light-red",
+    "imagePath" : "icon-work.svg",
     "timeframes": {
       "daily": {
         "current": 5,
@@ -19,7 +20,8 @@
   },
   {
     "title": "Play",
-    "color" : "soft-blue",
+    "color" : "bg-soft-blue",
+    "imagePath" : "icon-play.svg",
     "timeframes": {
       "daily": {
         "current": 1,
@@ -37,7 +39,8 @@
   },
   {
     "title": "Study",
-    "color" : "light-red-study",
+    "color" : "bg-light-red-study",
+    "imagePath" : "icon-study.svg",
     "timeframes": {
       "daily": {
         "current": 0,
@@ -55,7 +58,8 @@
   },
   {
     "title": "Exercise",
-    "color" : "lime-green",
+    "color" : "bg-lime-green",
+    "imagePath" : "icon-exercise.svg",
     "timeframes": {
       "daily": {
         "current": 1,
@@ -73,7 +77,8 @@
   },
   {
     "title": "Social",
-    "color" : "violet",
+    "color" : "bg-violet",
+    "imagePath" : "icon-social.svg",
     "timeframes": {
       "daily": {
         "current": 1,
@@ -91,7 +96,8 @@
   },
   {
     "title": "Self Care",
-    "color" : "soft-orange",
+    "color" : "bg-soft-orange",
+    "imagePath" : "icon-self-care.svg",
     "timeframes": {
       "daily": {
         "current": 0,

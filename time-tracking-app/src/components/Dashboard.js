@@ -12,7 +12,7 @@ function Dashboard() {
         <div className="flex justify-stretch justify-evenly align-middle">
             <CardProfile callback={handleChosingClicked} />
             <div className="container flex justify-evenly align-middle">
-                <div className="flex flex-wrap gap-7">
+                <div className="grid grid-cols-3 gap-7">
                 {data.map((card, index) => (
                 <div key={index} >
                     <CardDashboard  data={card} buttonClicked={showTimeframes} />
