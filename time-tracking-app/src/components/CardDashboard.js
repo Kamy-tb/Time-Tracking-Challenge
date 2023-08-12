@@ -1,12 +1,8 @@
-import img from '../images/icon-exercise.svg'
-
-
 function CardDashboard(props) {
   const data = props.data
   const buttonClicked = props.buttonClicked
   console.log(`../images/${data.imagePath}`)
   console.log(`color :${data.color}`)
-  //const imagePath = require(`../images/${data.imagePath}`);
   return (
     <div className={`card w-60 shadow-xl ${data.color}`}>
       <img className='w-8 h-8 ml-auto' src={"/images/" + data.imagePath} alt=" image" />
